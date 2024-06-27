@@ -5,11 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>موقعي الشخصي</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* تنسيقات لشريط التنقل */
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        /* تنسيقات للأزرار */
+        .button-link {
+            display: inline-block;
+            margin: 10px 0;
+            padding: 10px 20px;
+            background-color: #007acc;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 16px;
+        }
+        .button-link:hover {
+            background-color: #005f99;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>مرحباً بكم في موقعي الشخصي!</h1>
     </header>
+
+    <!-- شريط التنقل -->
+    <nav class="navbar">
+        <a href="index.html">الرئيسية</a>
+        <a href="schedule.html">جدول المباريات</a>
+        <a href="photos.html">صوري</a>
+        <a href="favorites.html">مواقعي المفضلة</a>
+        <a href="blog.html">مدونتي</a>
+    </nav>
 
     <div class="container">
         <div class="main-content">
@@ -19,38 +62,26 @@
             <!-- قسم مدونتي ومغامراتي -->
             <h2>مدونتي ومغامراتي</h2>
             <p>في هذا القسم، أكتب عن مغامراتي وتجربتي في البرمجة وكل شيء جديد أتعلمه.</p>
+            <a href="blog.html" class="button-link">اقرأ المزيد</a>
 
             <!-- قسم جدول مباريات الدوري السعودي -->
             <h2>جدول مباريات الدوري السعودي</h2>
-            <p><a href="schedule.html">عرض جدول المباريات الكامل</a></p>
+            <p><a href="schedule.html" class="button-link">عرض جدول المباريات الكامل</a></p>
 
             <!-- قسم صوري -->
             <h2>صوري</h2>
-            <div class="gallery">
-                <img src="image1.jpg" alt="صورة 1">
-                <img src="image2.jpg" alt="صورة 2">
-                <img src="image3.jpg" alt="صورة 3">
-                <!-- أضف المزيد من الصور هنا -->
-            </div>
+            <p>استعرض مجموعة من صوري المفضلة.</p>
+            <a href="photos.html" class="button-link">شاهد الصور</a>
 
             <!-- قسم اختصارات لمواقع مهمة -->
             <h2>اختصارات لمواقع مهمة</h2>
-            <ul>
-                <li><a href="https://www.google.com">جوجل</a></li>
-                <li><a href="https://www.wikipedia.org">ويكيبيديا</a></li>
-                <li><a href="https://www.youtube.com">يوتيوب</a></li>
-                <li><a href="https://www.github.com">جيت هب</a></li>
-                <!-- أضف المزيد من الروابط هنا -->
-            </ul>
+            <p>مجموعة من الروابط لمواقع مفيدة وزيارات متكررة.</p>
+            <a href="favorites.html" class="button-link">اكتشف المزيد</a>
 
             <!-- قسم قنوات YouTube المفضلة لدي -->
             <h2>قنوات YouTube المفضلة لدي</h2>
-            <ul>
-                <li><a href="https://www.youtube.com/user/MarquesBrownlee">Marques Brownlee</a></li>
-                <li><a href="https://www.youtube.com/user/SmarterEveryDay">SmarterEveryDay</a></li>
-                <li><a href="https://www.youtube.com/user/Veritasium">Veritasium</a></li>
-                <!-- أضف المزيد من القنوات هنا -->
-            </ul>
+            <p>قنواتي المفضلة على YouTube والتي أتابعها بانتظام.</p>
+            <a href="favorites.html#youtube" class="button-link">شاهد القنوات</a>
         </div>
     </div>
 
