@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صوري</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* تنسيقات لشريط التنقل */
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+            border: 2px solid #ddd;
+        }
+        .content {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>صوري</h1>
+    </header>
+
+    <!-- شريط التنقل -->
+    <nav class="navbar">
+        <a href="index.html">الرئيسية</a>
+        <a href="schedule.html">جدول المباريات</a>
+        <a href="photos.html">صوري</a>
+        <a href="favorites.html">مواقعي المفضلة</a>
+        <a href="blog.html">مدونتي</a>
+    </nav>
+
+    <div class="content">
+        <h2>معرض الصور</h2>
+        <div class="gallery">
+            <img src="image1.jpg" alt="صورة 1">
+            <img src="image2.jpg" alt="صورة 2">
+            <img src="image3.jpg" alt="صورة 3">
+            <!-- أضف المزيد من الصور هنا -->
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 رجا. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
