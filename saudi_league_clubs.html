@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أندية الدوري السعودي</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* تنسيقات لشريط التنقل */
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .content {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .club {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            background-color: #f9f9f9;
+            overflow: hidden;
+        }
+        .club h2 {
+            margin-top: 0;
+        }
+        .players {
+            list-style: none;
+            padding: 0;
+        }
+        .players li {
+            padding: 5px 0;
+        }
+        .club-logo {
+            max-width: 100px;
+            float: right;
+            margin-left: 20px;
+        }
+        .back-link {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+            font-size: 1.2em;
+            color: #333;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>أندية الدوري السعودي لكرة القدم</h1>
+    </header>
+
+    <!-- شريط التنقل -->
+    <nav class="navbar">
+        <a href="index.html">الرئيسية</a>
+        <a href="schedule.html">جدول المباريات</a>
+        <a href="photos.html">صوري</a>
+        <a href="favorites.html">مواقعي المفضلة</a>
+        <a href="blog.html">مدونتي</a>
+        <a href="youtube.html">قنوات YouTube</a>
+        <a href="achievements.html">إنجازاتي</a>
+        <a href="academic_achievements.html">إنجازاتي الدراسية</a>
+        <a href="saudi_league_clubs.html">أندية الدوري السعودي</a>
+    </nav>
+
+    <div class="content">
+        <!-- نادي الهلال -->
+        <div class="club">
+            <img src="https://upload.wikimedia.org/wikipedia/en/7/79/Al-Hilal_FC_Logo.png" alt="Al Hilal Logo" class="club-logo">
+            <h2>نادي الهلال</h2>
+            <p>تأسس نادي الهلال في عام 1957، ويعتبر من أكبر الأندية في السعودية وأكثرها شهرة. ملعبه الرئيسي هو استاد الملك فهد الدولي.</p>
+            <h3>اللاعبين الرئيسيين:</h3>
+            <ul class="players">
+                <li>سالم الدوسري - مهاجم</li>
+                <li>خاليدو كوليبالي - مدافع</li>
+                <li>روبن نيفيز - لاعب وسط</li>
+            </ul>
+        </div>
+
+        <!-- نادي النصر -->
+        <div class="club">
+            <img src="https://upload.wikimedia.org/wikipedia/en/7/74/Al-Nassr_FC_logo.png" alt="Al Nassr Logo" class="club-logo">
+            <h2>نادي النصر</h2>
+            <p>نادي النصر تأسس في عام 1955، وهو واحد من أعرق الأندية في السعودية. ملعبه الرئيسي هو الاول بارك</p>
+            <h3>اللاعبين الرئيسيين:</h3>
+            <ul class="players">
+                <li>كريستيانو رونالدو - مهاجم</li>
+                <li>سلطان الغنام - مدافع</li>
+                <li>تاليسكا - لاعب وسط</li>
+            </ul>
+        </div>
+
+        <!-- نادي الاتحاد -->
+        <div class="club">
+            <img src="https://upload.wikimedia.org/wikipedia/en/e/e9/Al-Ittihad_FC_logo.png" alt="Al Ittihad Logo" class="club-logo">
+            <h2>نادي الاتحاد</h2>
+            <p>نادي الاتحاد تأسس في عام 1927، ويعتبر من أقدم الأندية في السعودية. ملعبه الرئيسي هو استاد مدينة الملك عبدالله الرياضية.</p>
+            <h3>اللاعبين الرئيسيين:</h3>
+            <ul class="players">
+                <li>رومارينيو - مهاجم</li>
+                <li>عبدالله المعيوف - حارس مرمى</li>
+                <li>انقلو كانتي - لاعب وسط</li>
+            </ul>
+        </div>
+
+        <!-- نادي الأهلي -->
+        <div class="club">
+            <img src="https://upload.wikimedia.org/wikipedia/en/3/32/Al-Ahli_Saudi_FC_logo.png" alt="Al Ahli Logo" class="club-logo">
+            <h2>نادي الأهلي</h2>
+            <p>نادي الأهلي تأسس في عام 1937، وهو من الأندية البارزة في الدوري السعودي. ملعبه الرئيسي هو استاد مدينة الملك عبدالله الرياضية.</p>
+            <h3>اللاعبين الرئيسيين:</h3>
+            <ul class="players">
+                <li>روبيرتو فيرمينو - مهاجم</li>
+                <li>ميندي - حارس مرمى</li>
+                <li>فرانك كيسي - لاعب وسط</li>
+            </ul>
+        </div>
+
+        <!-- أضف المزيد من الأندية بنفس التنسيق -->
+        
+        <!-- رابط للعودة إلى الصفحة الرئيسية -->
+        <a href="index.html" class="back-link">العودة إلى الصفحة الرئيسية</a>
+    </div>
+
+    <footer>
+        <p>© 2024 رجا. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
+
